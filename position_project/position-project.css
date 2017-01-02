@@ -1,0 +1,62 @@
+
+html { 
+  background: url(https://raw.githubusercontent.com/Thinkful-Ed/css_layout_exercises_starter_files/master/images/outerspace_landscape.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+.nav {
+
+	height: 60px;
+	background-color: grey;
+	font-size: 4;
+}
+
+#home {
+  position: relative;
+	top: -11px;
+
+}
+
+#display {
+	position: relative;
+	top: -11px;
+}
+
+#last {
+
+	position: relative;
+	top: -11px;
+}
+
+#cat {
+
+  position: absolute;	
+  width: 200px;
+  top: -90px;
+  left: -90px;
+}
+
+#dog {
+
+  position: absolute;	
+  width: 200px;
+  bottom: -120px;
+  right: -60px;
+}
